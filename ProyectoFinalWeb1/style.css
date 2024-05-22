@@ -1,0 +1,146 @@
+body {
+    background-color: #b3a2ff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2{
+    font-size: 8px
+};
+
+
+.opciones {
+    padding: 20px;
+    background: #f2cccc;
+    text-align: center;
+    border: 5px solid #f2cccc;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #f2cccc;
+    width: 350px;
+}
+
+.opbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-spacing: 23px;
+
+}
+
+.button {
+    border: 5px solid #f2cccc;
+    background-color: #ffffff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: rgb(252, 179, 218);
+}
+
+.button:hover {
+    background: rgb(237, 58, 147);
+}
+
+button {
+    border: 3px solid #f2cccc;
+    background-color: #ffffff;
+    padding: 3px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(237, 58, 147);
+}
+
+button:hover {
+    background: rgb(252, 179, 218);
+}
+
+.input {
+    border: 5px solid #f2cccc;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.ventana {
+    /* Margenes para centrar la ventana */
+    margin: 0 auto;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    /* Dar colores y formato a la ventana */
+    background: #f1ddef;
+    text-align: center;
+    border: 5px solid #f1ddef;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #f1ddef;
+    width: 300px;
+}
+
+.ventana table {
+    border-spacing: 5px;
+}
+
+.registros {
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #f2cccc;
+    text-align: center;
+    border: 5px solid #f2cccc;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #f2cccc;
+    width: 300px;
+}
+
+.home {
+    border-spacing: 50px;
+}
+
+.tablas {
+    text-align: center;
+    padding: 10px;
+    border: 5px solid #f2cccc;
+    border-radius: 20px;
+    background: #f2cccc;
+    box-shadow: 10px 10px 20px #f2cccc;
+    font-size: 0.5em;
+    border-spacing: 20px;
+}
+
+
+.tablas td {
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 0.90em;
+}
+
+.inicio {
+    text-decoration: none;
+    border: 5px solid;
+    border-radius: 15px;
+    padding: 5px;
+    color: rgb(243, 210, 231);
+}
